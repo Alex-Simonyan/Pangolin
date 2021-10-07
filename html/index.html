@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pangolin</title>
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <script src="https://kit.fontawesome.com/08bcc6fc86.js" crossorigin="anonymous"></script>
+  <script src="../js/main.js"></script>
+</head>
+
+<body>
+  <div class="overlay" onclick="hideDropdowns()"></div>
+  
+  <header class="flex-container">
+    <div class="logo">
+      <a href="#"><img src="../images/logo.png"></a>
+    </div>
+    
+    <nav class="header-links">
+      <ul class="flex-container">
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#about-us">About</a>
+        </li>
+        <li class="dropdown-container">
+          <a href="#">All Categories <i class="fas fa-chevron-right"></i></a>
+          <div class="dropdown-categories dropdown-content flex-container">
+            <div class="girl">
+              <h3>Girl</h3>
+              <nav>
+                <ul>
+                  <li>
+                    <a href="#">Accessories</a>
+                  </li>
+                  <li>
+                    <a href="#">Dresses</a>
+                  </li>
+                  <li>
+                    <a href="#">Sweatshirt</a>
+                  </li>
+                  <li>
+                    <a href="#">Blouse</a>
+                  </li>
+                  <li>
+                    <a href="#">Accessories</a>
+                  </li>
+                  <li>
+                    <a href="#">Dresses</a>
+                  </li>
+                  <li>
+                    <a href="#">Sweatshirt</a>
+                  </li>
+                  <li>
+                    <a href="#">Blouse</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+        
+            <div class="boy">
+              <h3>Boy</h3>
+              <nav>
+                <ul>
+                  <li>
+                    <a href="#">Accessories</a>
+                  </li>
+                  <li>
+                    <a href="#">Dresses</a>
+                  </li>
+                  <li>
+                    <a href="#">Sweatshirt</a>
+                  </li>
+                  <li>
+                    <a href="#">Blouse</a>
+                  </li>
+                  <li>
+                    <a href="#">Accessories</a>
+                  </li>
+                  <li>
+                    <a href="#">Dresses</a>
+                  </li>
+                  <li>
+                    <a href="#">Sweatshirt</a>
+                  </li>
+                  <li>
+                    <a href="#">Blouse</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </li>
+        
+        <li>
+          <a href="#">New</a>
+        </li>
+        <li>
+          <a href="#">Sale</a>
+        </li>
+      </ul>
+      
+    </nav>
+
+    <div class="header-buttons x-closeable">
+      <ul class="flex-container">
+        <li class="dropdown-container">
+          <a href="#" class="shopping-cart"><i class="fas fa-shopping-cart"></i></a>
+          <div class="dropdown-cart dropdown-content">
+            <h3>My Cart</h3>
+            <a href="#" class="x-close-dropdown"><i class="fas fa-times"></i></a>
+          </div>
+        </li>
+        <li class="dropdown-container">
+          <a href="#" class="heart"><i class="fas fa-heart"></i></a>
+          <div class="dropdown-favorites dropdown-content">
+            <div class="favorites-top">
+              <h3>My Liked List</h3>
+              <a href="#" class="x-close-dropdown"><i class="fas fa-times"></i></a>
+            </div>
+
+            <div class="favorites-content">
+              <div class="favorites-item flex-container">
+                <div class="item-image">
+                  <img src="../images/IMG_1345.jpg">
+                </div>
+                <div class="item-info">
+                  <a href="#" class="x-remove-item"><i class="fas fa-times"></i></a>
+                  <p class="item-price">8000 <span>AMD</span></p>
+                  <p class="item-title">Floral Cotton Dress</p>
+                  <a href="" class="add-to-cart"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+              </div>
+              <div class="favorites-item flex-container">
+                <div class="item-image">
+                  <img src="../images/IMG_1345.jpg">
+                </div>
+                <div class="item-info">
+                  <a href="#" class="x-remove-item"><i class="fas fa-times"></i></a>
+                  <p class="item-price">8000 <span>AMD</span></p>
+                  <p class="item-title">Floral Cotton Dress Floral Cotton Dress</p>
+                  <a href="" class="add-to-cart"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+              </div>
+              <div class="favorites-item flex-container">
+                <div class="item-image">
+                  <img src="../images/IMG_1345.jpg">
+                </div>
+                <div class="item-info">
+                  <a href="#" class="x-remove-item"><i class="fas fa-times"></i></a>
+                  <p class="item-price">8000 <span>AMD</span></p>
+                  <p class="item-title">Floral Cotton Dress Floral Cotton Dress Floral Cotton Dress</p>
+                  <a href="" class="add-to-cart"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+              </div>
+              <div class="favorites-item flex-container">
+                <div class="item-image">
+                  <img src="../images/IMG_1345.jpg">
+                </div>
+                <div class="item-info">
+                  <a href="#" class="x-remove-item"><i class="fas fa-times"></i></a>
+                  <p class="item-price">8000 <span>AMD</span></p>
+                  <p class="item-title">Floral Cotton Dress</p>
+                  <a href="" class="add-to-cart"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+              </div>
+              <!-- <div class="favorites-item flex-container">
+                <div class="item-image">
+                  <img src="images/IMG_1345.jpg">
+                </div>
+                <div class="item-info">
+                  <a href="#" class="x-remove-item"><i class="fas fa-times"></i></a>
+                  <p class="item-price">8000 <span>AMD</span></p>
+                  <p class="item-title">Floral Cotton Dress</p>
+                  <a href="" class="add-to-cart"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+              </div> -->
+            </div>
+            
+            
+            
+            
+            
+          </div>
+        </li>
+      </ul>
+    </div>
+  </header>
+  
+
+  <section class="hero">
+    <img src="../images/IMG_1182.jpg">
+    <div class="hero-text">
+
+    </div>
+    <!-- <h1>Discover The Pangolin Collections</h1> -->
+  </section>
+
+  <section class="new-in">
+
+  </section>
+
+  <section class="sale">
+
+  </section>
+
+  <section id="about-us" class="about-us">
+    <div class="left-col">
+      <h1>About Us</h1>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </div>
+
+    <div class="right-col">
+      <img src="../images/yellow-dress.jpg">
+    </div>
+  </section>
+
+  <footer class="flex-container">
+    <div class="girl">
+      <h3>Girl</h3>
+      <nav>
+        <ul>
+          <li>
+            <a href="#"><i class="fas fa-circle"></i>Accessories</a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-circle"></i>Dresses</a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-circle"></i>Sweatshirt</a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-circle"></i>Blouse</a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-circle"></i>Accessories</a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-circle"></i>Dresses</a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-circle"></i>Sweatshirt</a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-circle"></i>Blouse</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="boy">
+      <h3>Boy</h3>
+      <nav>
+        <ul>
+          <li>
+            <a href="#"><i class="fas fa-circle"></i>Accessories</a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-circle"></i>Dresses</a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-circle"></i>Sweatshirt</a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-circle"></i>Blouse</a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-circle"></i>Accessories</a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-circle"></i>Dresses</a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-circle"></i>Sweatshirt</a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-circle"></i>Blouse</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="information">
+      <h3>Information</h3>
+      <nav>
+        <ul>
+          <li>
+            <a href="#">FAQs</a>
+          </li>
+          <li>
+            <a href="#">Track Order</a>
+          </li>
+          <li>
+            <a href="#">Delivery</a>
+          </li>
+          <li>
+            <a href="#">Return</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="contacts">
+      <h3>Contacts</h3>
+    </div>
+
+  </footer>
+</body>
+</html>
